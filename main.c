@@ -42,13 +42,18 @@ int main()
     }
 
 
+
+
     printf("%d\n",numeroUno);
     printf("%d\n",numeroDos);
     printf("%d\n",numeroTres);
     printf("El maximo es %d\n", maximo);
     printf("El minimo es %d\n", minimo);
+    if (numeroDelMedio==maximo || numeroDelMedio==minimo) {
+        printf("No hay numero del medio");
+    } else {
     printf("El numero del medio es %d\n", numeroDelMedio);
-
+    }
 
 
     return 0;
