@@ -33,11 +33,22 @@ int main()
         }
     }
 
+    if (numeroUno!=maximo && numeroUno!=minimo) {
+        numeroDelMedio=numeroUno;
+    } else if (numeroDos!=maximo && numeroDos!=minimo) {
+        numeroDelMedio=numeroDos;
+    } else {
+        numeroDelMedio=numeroTres;
+    }
+
+
     printf("%d\n",numeroUno);
     printf("%d\n",numeroDos);
     printf("%d\n",numeroTres);
     printf("El maximo es %d\n", maximo);
     printf("El minimo es %d\n", minimo);
+    printf("El numero del medio es %d\n", numeroDelMedio);
+
 
 
     return 0;
